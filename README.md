@@ -19,4 +19,4 @@ When timer runs out or quiz taker has completed the quiz, score will display and
 ![Alt text](./images/high-scores-view.PNG)
 
 ## Link to deployed application
-<!-- update soon -->
+https://valpal1320.github.io/5-Questions-Coding-Quiz/
