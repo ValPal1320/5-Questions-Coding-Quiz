@@ -77,3 +77,15 @@ button:hover {
     color: white;
 }
 
+@media (max-width: 375px) {
+    .btnGrid {
+        display: block;
+        flex-direction: column;
+        grid-template-columns: none;
+    }
+
+    .btn {
+        margin-bottom: 10px;
+    }
+}
+
