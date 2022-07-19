@@ -39,12 +39,13 @@ main{
     padding: 20px;
 }
 
-.intro p {
+.intro p, scoreList {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
-.intro p span{
+.intro p span {
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 40px;
