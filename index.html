@@ -11,9 +11,9 @@
 
 <body>
     <header>
-        <a href="./scores.html">View Highscores</a>
-        <p class="col">Time: <span id="timer">0</span></p>
-        <p class="col hide" id="timesUp">Time's up!</p>
+        <a href="#" id="viewHighScores">View High Scores</a>
+        <p id="timeTitle">Time: <span id="timer">0</span></p>
+        <p class="hide" id="timesUp">Time's up!</p>
     </header>
     <main>
 
@@ -51,6 +51,18 @@
                 <h2>Your Score: <span id="final-score"></span></h2>
                 <p> Enter Your Initals: <input type="text" id="initials"> 
                 <button id="submit">Submit</button></p>
+            </div>
+
+            <!-- Container for high scores -->
+            <div class="hide" id="highScoreSection">
+                <h2>⭐High Scores⭐</h2>
+                <div id="scoreList"></div>
+                
+
+                <a href="./index.html" ><button>Play Again</button></a>
+                <button id="clearScores">Clear High Scores</button>
+
+                
             </div>
 
         </div>
